@@ -81,3 +81,16 @@ Create .vscode/settings.json to standardize code formatting across the team:
   }
 }
 ```
+
+## ESLint setup
+
+```bash
+pnpm dlx nuxi module add eslint
+```
+
+## Setup husky for automatic linting
+
+```bash
+pnpm add --save-dev husky
+pnpm exec husky init
+```
